@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio Guiado</title>
+</head>
+<body>
+	<form action="">
+		<center>
+		<h2>Formulario</h2>
+		<p>
+			<label for="pw">Nombre</label><br>
+			<input type="text" name="nombre" required>
+		</p>
+		<p>
+			<label for="ap">Apellido</label><br>	
+			<input type="text" name="apellido" required>
+		</p>
+		<p>	
+			<label for="tf">Celular</label><br>
+			<input type="tel" name="" pattern=".{8,}" title="Debe ser 8 dígitos" required>
+		</p>
+		<p>
+			<label for="at">Marca de automóvil</label><br>
+			<select required>
+				<option value="">Elige opción</option>
+				<option value="auto1">Hyundai</option>
+				<option value="auto2">Chevrolet</option>
+				<option value="auto3">Que te importa</option>
+			</select>
+		</p>
+		<p>	
+			<label for="em">Email</label><br>
+			<input type="email" name="" required>
+		</p>
+		<p>	
+			<label for="pwd">Contraseña</label><br>
+			<input type="password" name="pw" pattern=".{6,}" title="6 o más caracteres" required>
+		</p>
+		<p>
+			<input type="submit" name="" value="Enviar">
+		</p>
+		</center>
+	</form>
+	<script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
